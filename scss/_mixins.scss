@@ -1,0 +1,47 @@
+@mixin large-text-w700-white {
+        font-family: "Raleway", sans-serif;
+        font-size: 90px;
+        font-weight: 700;
+        color: #fff;
+}
+
+@mixin large-text-w700-dark {
+        font-family: "Raleway", sans-serif;
+        font-size: 90px;
+        font-weight: 700;
+        color: #262626;
+}
+
+@mixin large-text-w300-white {
+        font-family: 'Raleway', sans-serif;
+        font-size: 17px;
+        font-weight: 300;
+        color: #fff;
+}
+
+@mixin large-text-w300-dark {
+        font-family: 'Raleway', sans-serif;
+        font-size: 17px;
+        font-weight: 300;
+        color: #262626;
+}
+
+@mixin button-hover {
+    transform: scale(1.2);
+    transition: 0.5s;
+}
+
+@mixin button-text {
+    color: #ffffff;
+    font-family: "Raleway", sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+@mixin button-style {
+    max-width: 200px;
+    height: 55px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    padding-top: 15px ;
+}
